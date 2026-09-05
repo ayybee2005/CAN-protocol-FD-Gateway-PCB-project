@@ -1,13 +1,7 @@
 # CAN-protocol-FD-Gateway-PCB-project
 bridges two independent CAN buses (via two DB9 connectors, one per channel) while keeping the MCU/USB side fully galvanically isolated from the vehicle/field side — so ground loops or voltage offsets on either bus can't reach your STM32 or your laptop.
-## 🤝 Sponsorship & Manufacturing
+## 🛠️ Hardware Fabrication & Sponsorship
 
-<p align="center">
-  <a href="https://www.nextpcb.com/">
-    <img src="https://www.nextpcb.com/assets/images/logo.png" alt="NextPCB Logo" width="300"/>
-  </a>
-</p>
+This project was sponsored and manufactured by **[NextPCB](https://www.nextpcb.com/)**.
 
-Special thanks to **[NextPCB](https://www.nextpcb.com/)** for sponsoring the fabrication and assembly of the **Isolated Dual-Channel CAN FD Gateway**.
-
-NextPCB provided excellent manufacturing quality for this complex 4-layer board—featuring galvanic ground isolation slots and $120\Omega$ CAN FD differential impedance routing—along with precise DFA/DFM feedback.
+Huge thanks to the NextPCB team for their support in fabricating and assembling this 4-layer STM32H723 Dual-Channel Isolated CAN FD Gateway PCB. Their Design for Assembly (DFA) and Design for Manufacturing (DFM) reviews helped catch potential footprint and routing issues prior to production.
